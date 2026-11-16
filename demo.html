@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Chatbot Demonstrations | AI Chatbot Development Company</title>
+  <meta name="description" content="Try our interactive frontend AI chatbot demonstration. Explore how a business chatbot responds to customer enquiries, WhatsApp questions, and lead generation flows.">
+  <meta name="keywords" content="AI Chatbot Development Company, Interactive Chatbot Demo, Website Chatbot Development, WhatsApp Chatbot Development, Customer Support Chatbot, AI Lead Generation Chatbot">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Interactive Chatbot Demonstrations | AI Chatbot Development Company">
+  <meta property="og:description" content="Experience the power of conversational AI with our interactive frontend chatbot simulation.">
+  <meta property="og:url" content="demo.html">
+  <meta property="og:site_name" content="AI Chatbot Development Company">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- STICKY NAVIGATION HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="AI Chatbot Development Company Home">
+        <span class="brand-logo-mark" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 8C5 5.79086 6.79086 4 9 4H19C21.2091 4 23 5.79086 23 8V16C23 18.2091 21.2091 20 19 20H13L8 24V20H9C6.79086 20 5 18.2091 5 16V8Z" stroke="#36D9E8" stroke-width="2" stroke-linejoin="round"/>
+            <circle cx="10.5" cy="12" r="1.8" fill="#5B8CFF"/>
+            <circle cx="14" cy="9.5" r="1.8" fill="#36D9E8"/>
+            <circle cx="17.5" cy="12" r="1.8" fill="#9875FF"/>
+            <path d="M10.5 12L14 9.5L17.5 12" stroke="#F7F9FF" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-logo-text">
+          <span class="brand-title">AI CHATBOT</span>
+          <span class="brand-subtitle">Development Company</span>
+        </span>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="primaryNav">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+          <li><a href="demo.html" class="nav-link active" aria-current="page">Live Demo</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          Build Your Chatbot
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M4.5 10H15.5M15.5 10L10.5 5M15.5 10L10.5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <button type="button" class="mobile-menu-toggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="hero-section" style="padding-bottom: 36px;">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header reveal" style="margin-bottom: 20px;">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            Live Frontend Simulation
+          </div>
+          <h1 class="h1-hero">
+            EXPERIENCE THE POWER OF <span class="text-gradient">CONVERSATIONAL AI.</span>
+          </h1>
+          <p class="lead-text" style="margin-top: 14px;">
+            Try a sample conversation and explore how a business chatbot can respond to common customer questions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE CHATBOT WORKSPACE -->
+    <section class="section" style="padding-top: 10px;">
+      <div class="container">
+        <div class="demo-workspace reveal">
+
+          <!-- LEFT SIDEBAR: SUGGESTED QUESTIONS & CONTROLS -->
+          <aside class="demo-sidebar" aria-label="Chatbot Demo Controls and Suggested Questions">
+            <div>
+              <h2 style="font-size: 1.15rem; margin-bottom: 6px;">Suggested Questions</h2>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">
+                Click any question below to send it immediately to the demonstration assistant:
+              </p>
+            </div>
+
+            <div class="demo-prompt-list">
+              <button type="button" class="suggested-chip" data-suggested-question="What services do you offer?">
+                <span>What services do you offer?</span>
+                <span aria-hidden="true">&rarr;</span>
+              </button>
+
+              <button type="button" class="suggested-chip" data-suggested-question="How can a chatbot help my business?">
+                <span>How can a chatbot help my business?</span>
+                <span aria-hidden="true">&rarr;</span>
+              </button>
+
+              <button type="button" class="suggested-chip" data-suggested-question="Can you build a WhatsApp chatbot?">
+                <span>Can you build a WhatsApp chatbot?</span>
+                <span aria-hidden="true">&rarr;</span>
+              </button>
+
+              <button type="button" class="suggested-chip" data-suggested-question="Can a chatbot collect leads?">
+                <span>Can a chatbot collect leads?</span>
+                <span aria-hidden="true">&rarr;</span>
+              </button>
+
+              <button type="button" class="suggested-chip" data-suggested-question="Can I request a custom chatbot?">
+                <span>Can I request a custom chatbot?</span>
+                <span aria-hidden="true">&rarr;</span>
+              </button>
+            </div>
+
+            <div style="border-top: 1px solid var(--border-subtle); padding-top: 18px;">
+              <h3 style="font-size: 0.92rem; margin-bottom: 8px;">Try Keyword Recognition</h3>
+              <p style="font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 14px;">
+                You can also type keywords like <code>whatsapp</code>, <code>leads</code>, <code>services</code>, <code>appointment</code>, <code>human</code>, or type an unknown phrase to test the fallback behaviour.
+              </p>
+              <a href="contact.html" class="btn btn-primary btn-sm" style="width: 100%;">
+                Request a Project Discussion
+              </a>
+            </div>
+          </aside>
+
+          <!-- RIGHT MAIN CHAT INTERFACE -->
+          <div class="live-chat-container" role="region" aria-label="Interactive Chatbot Demonstration Window">
+            <!-- Topbar: Avatar with abstract logo, Online/demo status, Clear button -->
+            <div class="live-chat-topbar">
+              <div class="mockup-agent-info">
+                <div class="brand-logo-mark" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 28 28" fill="none">
+                    <path d="M5 8C5 5.79086 6.79086 4 9 4H19C21.2091 4 23 5.79086 23 8V16C23 18.2091 21.2091 20 19 20H13L8 24V20H9C6.79086 20 5 18.2091 5 16V8Z" stroke="#36D9E8" stroke-width="2"/>
+                    <circle cx="10.5" cy="12" r="1.8" fill="#5B8CFF"/>
+                    <circle cx="14" cy="9.5" r="1.8" fill="#36D9E8"/>
+                    <circle cx="17.5" cy="12" r="1.8" fill="#9875FF"/>
+                  </svg>
+                </div>
+                <div>
+                  <div style="font-weight: 700; font-size: 0.96rem;">AI Business Assistant (Demo)</div>
+                  <div class="status-indicator">
+                    <span class="status-pulse"></span>
+                    <span>Online • Frontend Rule-Based Simulation</span>
+                  </div>
+                </div>
+              </div>
+
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <button type="button" id="clearChatBtn" class="btn btn-secondary btn-sm" style="padding: 7px 14px; font-size: 0.8rem;">
+                  Clear Conversation
+                </button>
+              </div>
+            </div>
+
+            <!-- Message Stream -->
+            <div class="live-chat-messages" id="chatMessages" aria-live="polite">
+              <!-- Initial Welcome Message -->
+              <div class="msg-row bot">
+                <div class="msg-avatar">AI</div>
+                <div class="msg-bubble">
+                  <p>Hello! Welcome to the <strong>AI Chatbot Development Company</strong> interactive frontend demonstration.</p>
+                  <p>Ask a question below or click any suggested topic to see how a structured business chatbot can respond to customer enquiries, qualify leads, or guide users.</p>
+                  <a href="contact.html" class="msg-action-link">Request a Project Discussion &rarr;</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Suggested Question Bar inside Chat -->
+            <div class="live-chat-quickbar" aria-label="Quick Suggested Prompts">
+              <button type="button" class="quickbar-pill" data-suggested-question="What services do you offer?">What services do you offer?</button>
+              <button type="button" class="quickbar-pill" data-suggested-question="How can a chatbot help my business?">How can a chatbot help my business?</button>
+              <button type="button" class="quickbar-pill" data-suggested-question="Can you build a WhatsApp chatbot?">Can you build a WhatsApp chatbot?</button>
+              <button type="button" class="quickbar-pill" data-suggested-question="Can a chatbot collect leads?">Can a chatbot collect leads?</button>
+              <button type="button" class="quickbar-pill" data-suggested-question="Can I request a custom chatbot?">Can I request a custom chatbot?</button>
+            </div>
+
+            <!-- User Input Bar -->
+            <div class="live-chat-inputbar">
+              <label for="chatUserInput" class="skip-link">Type your message</label>
+              <input
+                type="text"
+                id="chatUserInput"
+                class="chat-text-input"
+                placeholder="Type a message or select a suggested question..."
+                autocomplete="off"
+              >
+              <button type="button" id="chatSendBtn" class="btn btn-primary btn-sm">
+                Send
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path d="M4.5 10H15.5M15.5 10L10.5 5M15.5 10L10.5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Mandatory Frontend Simulation Disclaimer -->
+            <div class="demo-disclaimer-bar" role="note">
+              Interactive frontend demonstration — responses are predefined examples, not generated by a live AI model. Conversations are not transmitted or stored.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW THIS DEMO WORKS -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span>Behind the Scenes</div>
+          <h2 class="h2-section">What This Demonstration Illustrates</h2>
+          <p class="lead-text">
+            Key interaction patterns showcased in the demonstration interface above.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card reveal">
+            <h3 class="h3-card">Guided Prompt Discovery</h3>
+            <p>Visitors often don't know what to type first. Suggested question buttons guide users immediately toward high-value business topics.</p>
+          </div>
+
+          <div class="card reveal">
+            <h3 class="h3-card">Structured Fallback Behaviour</h3>
+            <p>When an unrecognised question is entered, the chatbot clearly communicates its scope and offers a direct link to discuss your project with a human team.</p>
+          </div>
+
+          <div class="card reveal">
+            <h3 class="h3-card">Action-Oriented Conversion</h3>
+            <p>Every response includes a clear next step—such as requesting a project discussion—turning passive browsing into structured enquiries.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 14px;">
+            <span class="brand-logo-mark" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 28 28" fill="none">
+                <path d="M5 8C5 5.79086 6.79086 4 9 4H19C21.2091 4 23 5.79086 23 8V16C23 18.2091 21.2091 20 19 20H13L8 24V20H9C6.79086 20 5 18.2091 5 16V8Z" stroke="#36D9E8" stroke-width="2"/>
+                <circle cx="10.5" cy="12" r="1.8" fill="#5B8CFF"/>
+                <circle cx="14" cy="9.5" r="1.8" fill="#36D9E8"/>
+                <circle cx="17.5" cy="12" r="1.8" fill="#9875FF"/>
+              </svg>
+            </span>
+            <span class="brand-logo-text">
+              <span class="brand-title">AI CHATBOT</span>
+              <span class="brand-subtitle">Development Company</span>
+            </span>
+          </a>
+          <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:16px;">
+            Intelligent chatbot development for customer support, sales, lead generation, WhatsApp conversations and business operations.
+          </p>
+          <span class="demo-badge-notice">Frontend Demonstration Website</span>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Chatbot Services</a></li>
+            <li><a href="solutions.html">AI Solutions</a></li>
+            <li><a href="demo.html">Interactive Demo</a></li>
+            <li><a href="contact.html">Contact &amp; Enquiry</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Core Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#website-chatbots">Website Chatbot Development</a></li>
+            <li><a href="services.html#whatsapp-chatbots">WhatsApp Chatbot Development</a></li>
+            <li><a href="services.html#support-chatbots">Customer Support Chatbots</a></li>
+            <li><a href="services.html#lead-chatbots">AI Lead Generation Chatbots</a></li>
+            <li><a href="services.html#voice-chatbots">AI Voice Chatbots</a></li>
+            <li><a href="services.html#custom-chatbots">Custom AI Chatbot Solutions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Demo Contact Info</h4>
+          <ul class="footer-links" style="color:var(--text-secondary); font-size:0.88rem;">
+            <li>Phone: 0000000000</li>
+            <li>Email: <a href="mailto:demo@example.com">demo@example.com</a></li>
+            <li>Address: Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</li>
+            <li>Hours: Mon–Sat, 9 AM–6 PM (demo hours)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 AI Chatbot Development Company — Demonstration Website. All sample content is for illustrative demonstration purposes.</span>
+        <span>Built with HTML5, CSS3 &amp; Vanilla JS</span>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
